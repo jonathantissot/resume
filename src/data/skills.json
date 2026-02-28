@@ -1,0 +1,85 @@
+{
+  "softSkills": [
+    {
+      "name": "Team management",
+      "level": 100,
+      "description": "Work-consolidation oriented",
+      "category": "soft"
+    },
+    {
+      "name": "Time management",
+      "level": 100,
+      "description": "Time efficiency oriented",
+      "category": "soft"
+    },
+    {
+      "name": "Project management",
+      "level": 90,
+      "description": "PMI, ITIL, COBIT & agile methodologies",
+      "category": "soft"
+    },
+    {
+      "name": "Communication",
+      "level": 90,
+      "description": "Asertive, dynamic and direct communication",
+      "category": "soft"
+    },
+    {
+      "name": "Stakeholder management",
+      "level": 95,
+      "description": "Business Case and ROI preparation and demonstration",
+      "category": "soft"
+    },
+    {
+      "name": "Business Intelligence",
+      "level": 90,
+      "description": "Strategic vision, with a strong interpretation of business and client needs",
+      "category": "soft"
+    }
+  ],
+  "technicalSkills": [
+    {
+      "name": "Public / Hybrid / Private Cloud",
+      "level": 100,
+      "description": "AWS, Azure, DevOps, Kubernetes, SRE, CI/CD",
+      "category": "technical"
+    },
+    {
+      "name": "Servers",
+      "level": 100,
+      "description": "Windows, Linux & Unix",
+      "category": "technical"
+    },
+    {
+      "name": "Virtualization",
+      "level": 100,
+      "description": "VMware, Xen & KVM",
+      "category": "technical"
+    },
+    {
+      "name": "Infrastructure-as-Code & Automation",
+      "level": 100,
+      "description": "Terraform, Ansible, Chef, Puppet, Python, GoLang, Bash Scripting, PowerShell",
+      "category": "technical"
+    },
+    {
+      "name": "Networking",
+      "level": 100,
+      "description": "Switching, routing, firewall [Checkpoint & Fortinet]",
+      "category": "technical"
+    },
+    {
+      "name": "Databases",
+      "level": 90,
+      "description": "SQL, NoSQL, GraphQL, TSDB",
+      "category": "technical"
+    },
+    {
+      "name": "Artificial Intelligence",
+      "level": 90,
+      "description": "MCPs, NLP, Computer Vision, Deep Learning",
+      "category": "soft"
+    }
+  ]
+}
+

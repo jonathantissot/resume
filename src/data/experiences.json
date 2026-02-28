@@ -1,0 +1,408 @@
+{
+  "experiences": [
+    {
+      "id": "ipgigster",
+      "title": "Senior Site Reliability Engineer",
+      "company": "IonicPartners [Gigster]",
+      "websiteUrl": "http://www.ionicpartners.com/",
+      "duration": "10/2022 to Present",
+      "summary": "Senior Site Reliability Engineer at IonicPartners [working for Gigster], in charge of the design and refactor of the legacy applications residing on GCP. Worked on refactoring AppScript applications to run on top of Lambda functions on AWS, that were called through an API Gateway. Integrated the application fully with Salesforce and Google services. Re-architected the application to run on ECS instead of GCP Cloud Run. Migrated part of the Salesforce DB into a Neo4J [GraphDB]. Created a new application [Lambda + API Gateway] that assist on searching for candidates making queries to Neo4J.",
+      "stats": [
+        { "value": "+2000", "label": "Lines of Python/JS code" },
+        { "value": "+3000", "label": "Lines of code refactored" },
+        { "value": "+200", "label": "Lines of Infra-as-Code" },
+        { "value": "100%", "label": "Highly satisfied customers" }
+      ],
+      "jobDescription": [
+        "To design and improve current services.",
+        "To help migrate services into AWS from GCP.",
+        "To implement a GraphDB and help create the search algorithm.",
+        "To improve the CI/CD overall process.",
+        "To minimize cost through the use of economies of scale."
+      ],
+      "projects": [
+        {
+          "title": "AppScript refactor",
+          "description": [
+            "Design the new architecture for the application.",
+            "Refactor the AppScript code to run with NodeJS.",
+            "Integrate the platform to make use of GDrive and AWS services.",
+            "Develop the Infrastructure-as-Code for everything that has been deployed."
+          ]
+        },
+        {
+          "title": "Neo4J deployment",
+          "description": [
+            "Design the new schema for the GraphDB relationships.",
+            "Get Salesforce data into GraphDB.",
+            "Create a Lambda + API Gateway to perform lookups in Neo4J.",
+            "Assist on the development for the search algorithm and user qualification."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "xsell",
+      "title": "Senior Site Reliability Engineer",
+      "company": "MajorKeyTech [XSell Technologies]",
+      "websiteUrl": "http://www.xselltechnologies.com/",
+      "duration": "08/2021 to 09/2022",
+      "summary": "Senior Site Reliability Engineer at MajorKeyTech [working for XSell], in charge of the design and architecture of the AWS & Azure platforms. Joined the company to assist them on having a better architecture on the AWS & Azure accounts. Worked on setting up integrations between the AWS accounts, by creating an AWS Organization from scratch, migrating the AWS accounts, implementing AWS SSO plus AWS VPN Client integrated with Okta. Created the repository that holds the Infrastructure-as-Code and developed the guidelines on how to work on it as the starting point of having everything on code. Developed the entire network topology between AWS VPCs & Azure networks using VirtualWAN & VirtualHub. Worked with the internal teams setting up the proper permissions for each one to access only those resources that are inherently required by the role.",
+      "stats": [
+        { "value": "+30%", "label": "Cost saving on external services" },
+        { "value": "+30", "label": "AWS Accounts managed" },
+        { "value": "+2000", "label": "Lines of Infra-as-Code" },
+        { "value": "100%", "label": "Infrastructure on Code" }
+      ],
+      "jobDescription": [
+        "To design and implement a new AWS Account & Azure subscription architecture.",
+        "To design and develop the infrastructure with Terraform.",
+        "To implement RBAC through the use of Okta.",
+        "To provide support, administration and consulting services for AWS & Azure.",
+        "To lead any project that requires expertise in any technology."
+      ],
+      "projects": [
+        {
+          "title": "AWS & Azure re-design",
+          "description": [
+            "Design the AWS Account & Azure subscription structure.",
+            "Create folders/OUs to handle certain environments or requirements.",
+            "Implement and migrate accounts/subs into the new architecture.",
+            "Develop the Infrastructure-as-Code for everything that has been designed.",
+            "Implement SSO through the use of Okta."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mgstover",
+      "title": "Senior Python Developer",
+      "company": "MajorKeyTech [MGStover]",
+      "websiteUrl": "http://www.mgstover.com/",
+      "duration": "05/2020 to 07/2021",
+      "summary": "Senior Python Developer at MajorKeyTech [working for MGstover], in charge of the development of Python code to handle a cryptocurrency portfolio manager for several customers. Joined the team with the sole purpose of assisting in finishing the project in the time needed, but ended up working on the AWS side as well to improve the overall platform and create the proper architecture to handle this application that was running on Docker Swarm. Developed the CI/CD pipeline to get the code deployed into non-production environments and accelerate the shipment between sprints. Refactored part of the application to handle better the queries against the database and make use of multi-threading capabilities alongside async functions to speed up the responses.",
+      "stats": [
+        { "value": "+2000", "label": "Lines of Python code written" },
+        { "value": "~60", "label": "Days to Finish the Project" },
+        { "value": "+200", "label": "Lines of Infra-as-Code" },
+        { "value": "100%", "label": "Highly satisfied customers" }
+      ],
+      "jobDescription": [
+        "To develop a Python application to manage cryptocurrency portfolios.",
+        "To implement multi-threading and async functions to improve the UX.",
+        "To refactor the application as per the 12factorapp guidelines.",
+        "To provide support & administration of AWS Services.",
+        "To create a CI/CD pipeline to speed up the development process."
+      ],
+      "projects": [
+        {
+          "title": "Cryptocurrency Portfolio Manager development",
+          "description": [
+            "Develop the Python application to handle multiple portfolios from different cryptocurrency platforms [such as Coinbase].",
+            "Improve the application making use of multi-threading and async functions.",
+            "Refactor the application according to the 12factorapp guidelines.",
+            "Create a CI/CD pipeline that kicked in from GitHub Actions to get the code deployed into Docker Swarm.",
+            "Handle incidents and bugfixes on the code."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iherb",
+      "title": "Principal Site Reliability Engineer",
+      "company": "MajorKeyTech [iHerb]",
+      "websiteUrl": "http://www.iherb.com/",
+      "duration": "04/2020 to 11/2020",
+      "summary": "Principal Site Reliability Engineer at MajorKeyTech [working for iHerb], in charge of the design and the deployment of an observability platform from scratch to cover 100% of the Kubernetes infrastructure that was deployed between AWS & On-Prem datacenters. Designed a full stack with Grafana, Grafana Loki, Grafana Tempo, Prometheus & Thanos, through the usage of Helm Charts and Azure DevOps Pipelines for the deployment in each Kubernetes cluster.",
+      "stats": [
+        { "value": "+20", "label": "Kubernetes clusters managed" },
+        { "value": "+150", "label": "Worker nodes managed" },
+        { "value": "+500", "label": "Lines of Infra-as-Code" },
+        { "value": "100%", "label": "Infrastructure monitored" }
+      ],
+      "jobDescription": [
+        "To design and deploy a full-fledged observability platform.",
+        "To coordinate different teams to get the observability platform up and running.",
+        "To create dashboards as an example to assist on showing the strengths of the platform.",
+        "To evangelize developers to get them on board of the new platform.",
+        "To create or assist in the creation of monitors to get custom metrics from the application.",
+        "To develop scripts that helped on shipping the logs between different platforms.",
+        "To resolve issues related to any application running in the Kubernetes platform."
+      ],
+      "projects": [
+        {
+          "title": "Design & Deployment of the Observability platform",
+          "description": [
+            "Discover all the Kubernetes platforms and create an inventory for them.",
+            "Design a solution that will be able to monitor end-to-end any application running in the Kubernetes platform and outside, making use of object storage.",
+            "Create architectural documents and discuss with the rest of the SREs to gather new ideas or pinpoint any issues.",
+            "Write the code to deploy the observability platform in an automated way making use of RBAC.",
+            "Create the templates and pipelines in Azure DevOps Pipelines.",
+            "Create failsafe mechanisms to avoid losing the ability to monitor even if the main monitoring platform goes down."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "caylent",
+      "title": "Senior DevOps Engineer",
+      "company": "Caylent [Skedulo]",
+      "websiteUrl": "http://www.caylent.com/",
+      "duration": "03/2020 to 05/2020",
+      "summary": "Senior DevOps Engineer at Caylent [working for Skedulo], in charge of the design and the migration from Terraform to Terraform Cloud for all of Skedulo's environments. Joined the team with the task of recover the time lost during the first months of handling this customer and standarize the process of this migration.",
+      "stats": [
+        { "value": "+300", "label": "Resources migrated to Terraform Cloud" },
+        { "value": "~30", "label": "Days to Finish the Project" },
+        { "value": "+1000", "label": "Lines of Infra-as-Code" },
+        { "value": "100%", "label": "Highly satisfied customers" }
+      ],
+      "jobDescription": [
+        "To lead and assist on the migration to Terraform Cloud.",
+        "To work alongside junior colleagues to help them grow while teaching them ways of automating the work.",
+        "To participate on the daily huddles with the customer to perform the handover of the tasks on AU time.",
+        "To provide support & administration of Terraform Cloud & AWS Services.",
+        "To perform root cause analysis to solve underlying issues."
+      ],
+      "projects": [
+        {
+          "title": "Migration from Terraform to Terraform Cloud",
+          "description": [
+            "Discovery & analysis of deployed infrastructure in AWS.",
+            "Create the proper resources in Terraform to hold the already deployed infrastructure.",
+            "Coach the teammates on how to work with Terraform Cloud and the automation through webhooks.",
+            "Create proper workspaces for the environments.",
+            "Create GitHub validation on the code to be ran before it is submitted.",
+            "Import all the deployed resources from AWS into Terraform."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "xo",
+      "title": "Senior Site Reliability Engineer",
+      "company": "Trilogy [CrossOver]",
+      "websiteUrl": "http://www.crossover.com/",
+      "duration": "05/2018 to 07/2020",
+      "summary": "Senior Site Reliability Engineer at Trilogy Inc. [CrossOver], in charge of the design and deployment of world-class SaaS products, using containerization [Kubernetes/Docker], and cloud services as AWS, Azure, Google Cloud Platform, and VMware @ AWS. I am focused on the integral management of the Lift & Shift process to VMware @ AWS from its Discovery stage, going through application design on Cloud, implementing shared services, and handover the platform to the team that should administer it.",
+      "stats": [
+        { "value": "+3000", "label": "servers migrated to Cloud" },
+        { "value": "+30", "label": "Months as Top Performer" },
+        { "value": "+10000", "label": "Lines of Infra-as-Code" },
+        { "value": "100%", "label": "Highly satisfied customers" }
+      ],
+      "jobDescription": [
+        "To lead and deploy Lift & Shift projects from hybrid cloud environments to VMware @ AWS.",
+        "To develop Infrastructure-as-Code modules using Terraform & Ansible for provisioning and configuration management.",
+        "To develop Python scripts with REST API endpoints [in Flask or Django] to automate daily tasks.",
+        "To evaluate, recommend and promote application designs to adapt it to use public cloud services.",
+        "To provide support & administration of a Kubernetes cluster.",
+        "To act as last the man for highly complex incidents.",
+        "To perform root cause analysis to solve underlying issues.",
+        "To create Cost Optimization tasks to re-assess and evaluate public cloud offering."
+      ],
+      "projects": [
+        {
+          "title": "Jive Migration to VMware@AWS",
+          "description": [
+            "Discovery & analysis of deployed infrastructure in multiple data centers.",
+            "Java application tunning to adequate to the new parameters needed to be migrated.",
+            "Network topology design and deployment for every workload.",
+            "Re-platform analysis to evaluate modifications in the product to adapt it to the Cloud.",
+            "Scripts development to automate the Lift & Shift process.",
+            "Migration of the workloads to the Cloud [over 1000 servers & 200 containers]."
+          ]
+        },
+        {
+          "title": "Manuscript Migration to VMware@AWS",
+          "description": [
+            "Discovery & analysis of deployed infrastructure in multiple data centers.",
+            "Network topology design and deployment for every workload.",
+            "Re-platform analysis to evaluate modifications in the product to adapt it to the Cloud.",
+            "Scripts development to automate the Lift & Shift process.",
+            "Migration of the workloads to the Cloud [over 300 servers & services]."
+          ]
+        },
+        {
+          "title": "Sococo Migration to VMware@AWS",
+          "description": [
+            "Discovery & analysis of deployed infrastructure in multiple datacenters.",
+            "Network topology design and deployment for every workload using Consul & Rundeck.",
+            "Re-platform analysis to evaluate modifications in the product to adapt it to the Cloud.",
+            "Scripts development to automate the Lift & Shift process.",
+            "Migration of the workloads to the cloud [over 200 servers & services]."
+          ]
+        },
+        {
+          "title": "DNN Migration to VMware@AWS",
+          "description": [
+            "Discovery & analysis of deployed infrastructure in multiple datacenters.",
+            "Network topology design and deployment for every workload between Azure & AWS.",
+            ".NET application configuration to adapt it to the requirements.",
+            "Scripts development to automate the Lift & Shift process.",
+            "Migration of the workloads to the cloud [over 300 servers & services]."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sti",
+      "title": "DevOps Lead",
+      "company": "SemperTI S.A.",
+      "websiteUrl": "http://www.semperti.com/",
+      "duration": "04/2018 to 12/2018",
+      "summary": "DevOps Lead at SemperTI S.A., leading five DevOps to provide services to the companies with a Support contract with us. As well, managed projects to implement Kubernetes clusters under OKD or OCP, providing consulting for current workloads in Azure & AWS and performing Infrastructure-as-Code development in Terraform/Ansible.",
+      "stats": [
+        { "value": "+30", "label": "Services delivered to clients" },
+        { "value": "5", "label": "DevOps / SRE direct reports" },
+        { "value": "22", "label": "Finished projects within schedule" },
+        { "value": "100%", "label": "Incidents solved within SLA" }
+      ],
+      "jobDescription": [
+        "To lead & implement projects in leading technologies.",
+        "To manage DevOps teams and coach them to improve their skillset.",
+        "To provide support & administration of any technology deployed in our data center and the clients infrastructure."
+      ],
+      "projects": []
+    },
+    {
+      "id": "mti",
+      "title": "Senior Systems Engineer / Infrastructure Manager",
+      "company": "Manas Tecnología Informática",
+      "websiteUrl": "http://www.manas.com.ar/",
+      "duration": "01/2018 to 05/2018",
+      "summary": "Senior Systems Engineer / Infrastructure Manager at Manas Tecnología Informática, managing and directing a team of systems engineers to provide infrastructure design and consulting.",
+      "stats": [
+        { "value": "8", "label": "Team members managed" },
+        { "value": "+25", "label": "Active clients" },
+        { "value": "15", "label": "Certifications held" },
+        { "value": "100%", "label": "Client satisfaction rate" }
+      ],
+      "jobDescription": [
+        "To manage and direct a team of Systems Engineers.",
+        "To provide infrastructure design and consulting for clients.",
+        "To manage IT operations and support services."
+      ],
+      "projects": []
+    },
+    {
+      "id": "pmp",
+      "title": "Head of Servers & Messaging / Lead Infrastructure Engineer",
+      "company": "Prisma Medios de Pago [Visa & Banelco]",
+      "websiteUrl": "https://www.prisma.com.ar/",
+      "duration": "05/2013 to 12/2017",
+      "summary": "Head of Servers & Messaging at Prisma Medios de Pago, leading infrastructure teams and managing critical payment processing systems. Promoted multiple times due to excellent performance and innovation in infrastructure management.",
+      "stats": [
+        { "value": "15", "label": "Team members led" },
+        { "value": "99.99%", "label": "Uptime achieved" },
+        { "value": "+1000", "label": "Servers managed" },
+        { "value": "3", "label": "Promotions received" }
+      ],
+      "jobDescription": [
+        "To lead and manage infrastructure teams.",
+        "To design and implement high-availability infrastructure solutions.",
+        "To manage critical payment processing systems.",
+        "To implement ITIL and infrastructure best practices."
+      ],
+      "projects": []
+    },
+    {
+      "id": "vasa",
+      "title": "Senior Technical Analyst",
+      "company": "Visa Argentina S.A.",
+      "websiteUrl": "https://www.visa.com.ar/",
+      "duration": "03/2012 to 04/2013",
+      "summary": "Senior Technical Analyst at Visa Argentina S.A., providing advanced technical support and infrastructure management for payment processing systems.",
+      "stats": [
+        { "value": "+500", "label": "Tickets resolved" },
+        { "value": "98%", "label": "First call resolution rate" },
+        { "value": "4.9/5", "label": "Customer satisfaction" },
+        { "value": "24/7", "label": "Support availability" }
+      ],
+      "jobDescription": [
+        "To provide technical support for payment systems.",
+        "To manage and troubleshoot infrastructure issues.",
+        "To collaborate with development teams on system optimization."
+      ],
+      "projects": []
+    },
+    {
+      "id": "cargill",
+      "title": "Wintel Technical Focal Point",
+      "company": "Cargill Inc.",
+      "websiteUrl": "https://www.cargillargentina.com.ar/",
+      "duration": "02/2012 to 07/2012",
+      "summary": "Wintel Technical Focal Point at Cargill Inc., leading a team of twelve resources in order to satisfy internal clients need. Executing a project manager role as per being principal technical focal point.",
+      "stats": [
+        { "value": "12", "label": "Team in charge for technical matters" },
+        { "value": "6500+", "label": "Servers supported all over the world" },
+        { "value": "70+", "label": "Countries which have been provided expert support" },
+        { "value": "100%", "label": "Service availability" }
+      ],
+      "jobDescription": [
+        "To mentor 5 Wintel System Administrators.",
+        "To coordinate, create, and manage Remedy change requests.",
+        "To develop and deploy Incident and Change management processes with ITIL as framework.",
+        "To provide third level support for Windows Server platform.",
+        "To perform on-demand Root Cause Analysis.",
+        "To configure farms, manage users and manage applications in a Citrix envinroment.",
+        "To administer Commvault and TSM Backup & Restore software.",
+        "To coordinate local and global tasks with tape-handlers.",
+        "To install, manage and troubleshoot Symantec EndPoint Protection and Backup Exec System Recovery."
+      ],
+      "projects": []
+    },
+    {
+      "id": "ibmsrl",
+      "title": "Technical Matter Expert / Wintel Server Senior Administrator",
+      "company": "IBM Argentina S.R.L.",
+      "websiteUrl": "https://www.ibm.com/ar-es/",
+      "duration": "08/2009 to 01/2012",
+      "summary": "Technical Matter Expert at IBM Argentina S.R.L., leading a team of 9 Wintel Junior administrators, also filling the role of a Wintel Server Senior administrator.",
+      "stats": [
+        { "value": "9", "label": "Team in charge for technical matters" },
+        { "value": "5000+", "label": "Servers supported all over the world" },
+        { "value": "30+", "label": "Countries which have been provided expert support" },
+        { "value": "99.95%", "label": "Service availability" }
+      ],
+      "jobDescription": [
+        "To provide support over Windows Server and virtual environment platform.",
+        "To perform the role of Technical Matter Expert for any high-complexity requirements or incidents.",
+        "To propose server infrastructure improvements.",
+        "To create, manage and control Active Directory group policies.",
+        "To manage and control Active Directory, DHCP, DNS & Exchange platforms.",
+        "To conduct on-demand Root Cause Analysis.",
+        "To execute and control Disaster Recovery Procedure exercises.",
+        "To create team IT processes documentation."
+      ],
+      "projects": []
+    },
+    {
+      "id": "ictgroup",
+      "title": "Wintel System Administrator",
+      "company": "ICT Group / Sykes",
+      "websiteUrl": "https://www.sykes.com/",
+      "duration": "05/2008 to 07/2009",
+      "summary": "Wintel System administrator performing Windows Server [2000 & 2003] administration tasks, along with basic Active Directory administration.",
+      "stats": [
+        { "value": "1000+", "label": "Servers managed" },
+        { "value": "500+", "label": "Users supported" },
+        { "value": "98%", "label": "Uptime achieved" },
+        { "value": "24/7", "label": "Support availability" }
+      ],
+      "jobDescription": [
+        "To lead administrators team to perform maintance tasks.",
+        "To provide remote on-call support as needed.",
+        "To control IT systems & applications.",
+        "To perform backups on IT platform.",
+        "To perform Operative Systems update.",
+        "To install and configure new hardware and software.",
+        "To add, delete or modify Active Directory user accounts.",
+        "To create, deploy and control IT security policies.",
+        "To create a baseline for systems configuration.",
+        "To propose improvement actions on IT platform."
+      ],
+      "projects": []
+    }
+  ]
+}
+

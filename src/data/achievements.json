@@ -1,0 +1,77 @@
+{
+  "achievements": [
+    {
+      "id": 1,
+      "year": 2021,
+      "title": "AWS Certified Database Specialty",
+      "company": "Trilogy"
+    },
+    {
+      "id": 2,
+      "year": 2020,
+      "title": "AWS DevOps Engineer - Professional",
+      "company": "Trilogy"
+    },
+    {
+      "id": 3,
+      "year": 2020,
+      "title": "AWS Certified Architect - Professional",
+      "company": "Trilogy"
+    },
+    {
+      "id": 4,
+      "year": 2018,
+      "title": "AWS Certified Architect - Associate",
+      "company": "Manas"
+    },
+    {
+      "id": 5,
+      "year": 2016,
+      "title": "Excellent performance rating",
+      "company": "Prisma Medios de Pago"
+    },
+    {
+      "id": 6,
+      "year": 2015,
+      "title": "Excellent performance rating",
+      "company": "Prisma Medios de Pago"
+    },
+    {
+      "id": 7,
+      "year": 2014,
+      "title": "Promoted to Head of Servers and Storage",
+      "company": "Prisma Medios de Pago"
+    },
+    {
+      "id": 8,
+      "year": 2014,
+      "title": "Recognition for participation on merge project [between Visa & Banelco]",
+      "company": "Prisma Medios de Pago"
+    },
+    {
+      "id": 10,
+      "year": 2013,
+      "title": "Excellent performance rating",
+      "company": "Visa Argentina S.A."
+    },
+    {
+      "id": 11,
+      "year": 2012,
+      "title": "Excellent performance rating",
+      "company": "IBM Argentina S.R.L."
+    },
+    {
+      "id": 12,
+      "year": 2011,
+      "title": "Promoted to Wintel technical focal point",
+      "company": "IBM Argentina S.R.L."
+    },
+    {
+      "id": 13,
+      "year": 2010,
+      "title": "Excellent performance rating",
+      "company": "IBM Argentina S.R.L."
+    }
+  ]
+}
+

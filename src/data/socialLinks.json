@@ -1,0 +1,40 @@
+{
+  "socialLinks": [
+    {
+      "id": 1,
+      "enabled": true,
+      "name": "LinkedIn",
+      "iconPrefix": "fab",
+      "icon": "fa-linkedin",
+      "url": "https://www.linkedin.com/in/jonathantissot/",
+      "ariaLabel": "Connect on LinkedIn"
+    },
+    {
+      "id": 2,
+      "enabled": false,
+      "name": "Facebook",
+      "iconPrefix": "fab",
+      "icon": "fa-facebook",
+      "url": "https://www.facebook.com/jon.tissot",
+      "ariaLabel": "Follow on Facebook"
+    },
+    {
+      "id": 3,
+      "enabled": true,
+      "name": "Twitter",
+      "iconPrefix": "fab",
+      "icon": "fa-twitter",
+      "url": "https://twitter.com/jonathantissot",
+      "ariaLabel": "Follow on Twitter"
+    },
+    {
+      "id": 4,
+      "enabled": true,
+      "name": "Skype",
+      "iconPrefix": "fab",
+      "icon": "fa-skype",
+      "url": "skype:jonathan.tissot?chat",
+      "ariaLabel": "Chat on Skype"
+    }
+  ]
+}

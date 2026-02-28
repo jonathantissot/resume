@@ -1,0 +1,53 @@
+{
+  "recommendations": [
+    {
+      "id": 1,
+      "quote": "Jonathan shines due to his high level of IT knowledge, his high ability to work, his proactivity and his youth. He is a very valuable professional.",
+      "author": "Guillermo Angelani",
+      "title": "Employer at Prisma Medios de Pago",
+      "linkedinUrl": "https://www.linkedin.com/in/gangelani/",
+      "translated": true
+    },
+    {
+      "id": 2,
+      "quote": "Jonathan is an outstanding professional, having strong soft skills from his empathy, dynamism, energy and leadership. With an excellent business vision situation analysis and risk assessment, despite his young age. Complements with a great technical knowledge, hard skills and a constant search for innovation and develop new technologies that help provide agility and to increase all aforementioned adjectives.",
+      "author": "Damián Ávalos",
+      "title": "Provider at Prisma Medios de Pago",
+      "linkedinUrl": "https://www.linkedin.com/in/damian-avalos-1b49981a/",
+      "translated": true
+    },
+    {
+      "id": 3,
+      "quote": "Jonathan Tissot is a great professional and a great person; working with him, you can clearly see his qualities as a leader and his invaluable contribution to deploy improvements and provide help when it is needed. I have the pleasure to have him as my boss for over 2 years, where I have learn and keep learning a lot from his vast knowledge. I am convinced that having Jonathan in your company is another name for progress and success.",
+      "author": "Victor Bruno Rojas Bressi",
+      "title": "Team member at Prisma Medios de Pago",
+      "linkedinUrl": "https://www.linkedin.com/in/victor-bruno-rojas-bressi-a80a9713b/",
+      "translated": true
+    },
+    {
+      "id": 4,
+      "quote": "Jonathan was one of the most influential supervisors I had. He was all the time focused on the company needs and for all of his team members to be motivated, focused and looking for new technologies and knowledge to do things differently. Even when my time there was short, it was a learning experience and a constant challenge. He was always updated with latest trends in methodologies and involved the team in the adoption process.",
+      "author": "Fernando Bacigalupo",
+      "title": "Team member at Visa Argentina S.A.",
+      "linkedinUrl": "https://www.linkedin.com/in/fbacigalupo/",
+      "translated": true
+    },
+    {
+      "id": 5,
+      "quote": "Jonathan Tissot was an excellent colleague, with whom I shared situations where he demonstrated his ability to collaborate, to execute from an empathic approach and most of all, his ability to stand out in order to solve any problem that might rise. In the time that we did not worked in the same team, he always offered support and assistance to develop technical and non-technical skills. Even working in different companies, he helped me to develop my leadership skills. Without any doubt, he is a person that settles the score and to work alongside him was an excellent experience for which I will be always grateful.",
+      "author": "Diego Leonian",
+      "title": "Colleague at IBM Argentina S.R.L.",
+      "linkedinUrl": "https://www.linkedin.com/in/diego-leonian-a007a414/",
+      "translated": true
+    },
+    {
+      "id": 6,
+      "quote": "Jonathan's behavior is outstanding. Professionalism and human factor are the 2 variables he is always handling. Always willing to help and improve and most important of all... He is willing to challenging himself (and of course he always get it). A highly valuable resource and an excellent person.",
+      "author": "Fernando Yopolo",
+      "title": "Colleague at IBM Argentina S.R.L.",
+      "linkedinUrl": "https://www.linkedin.com/in/fyopolo/",
+      "translated": false
+    }
+  ]
+}
+

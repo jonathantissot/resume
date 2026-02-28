@@ -1,0 +1,218 @@
+{
+  "certifications": [
+    {
+      "id": 25,
+      "course": "OpenTelemetry Certified Associate",
+      "institution": "CNCF",
+      "certificateUrl": "https://www.credly.com/badges/0487db07-bf5e-4638-9333-5c7af465d896/public_url",
+      "badgeImageUrl": "https://images.credly.com/size/680x680/images/3d3f7131-83a4-4427-8a68-150ca90bcc23/blob",
+      "hasCertificate": true,
+      "year": 2026
+    },
+    {
+      "id": 24,
+      "course": "Microsoft Certified Azure Administrator",
+      "institution": "Microsoft",
+      "certificateUrl": "https://www.credly.com/badges/b3364fd7-8e8e-4c4c-baa3-b56ac9885372",
+      "badgeImageUrl": "https://images.credly.com/images/336eebfc-0ac3-4553-9a67-b402f491f185/azure-administrator-associate-600x600.png",
+      "hasCertificate": true,
+      "year": 2022
+    },
+    {
+      "id": 23,
+      "course": "Red Hat Certified System Administrator",
+      "institution": "Red Hat",
+      "certificateUrl": "https://rhtapps.redhat.com/certifications/badge/verify/HOHLW3DXVOI57N34YTOJPB4MMUAEQU3CUPSQX2KSDXT6RW46LQ3T7ULZ55KZZ56SKO7EQ3ETTLYZQ4U5NQYTCNA62RUWOCM34WWBUYQ=",
+      "badgeImageUrl": "https://images.credly.com/size/680x680/images/572de0ba-2c59-4816-a59d-b0e1687e45ee/image.png",
+      "hasCertificate": true,
+      "year": 2021
+    },
+    {
+      "id": 22,
+      "course": "Google Cloud Certified: Professional Cloud Architect",
+      "institution": "Google Cloud",
+      "certificateUrl": "https://www.credential.net/2d0d53c8-dbc2-4216-af76-8d0ca2ff2171#gs.vtoxpp",
+      "badgeImageUrl": "https://images.credly.com/size/680x680/images/71c579e0-51fd-4247-b493-d2fa8167157a/image.png",
+      "hasCertificate": true,
+      "year": 2021
+    },
+    {
+      "id": 21,
+      "course": "HashiCorp Certified: Terraform Associate",
+      "institution": "HashiCorp",
+      "certificateUrl": "https://www.credly.com/badges/d02b64e4-a4ba-4ce7-9673-ec3da2f8d3e8",
+      "badgeImageUrl": "https://images.credly.com/size/680x680/images/cd038261-9d1c-4792-bc62-3a3b5bda175c/blob",
+      "hasCertificate": true,
+      "year": 2021
+    },
+    {
+      "id": 20,
+      "course": "Certified Kubernetes Administrator [CKA]",
+      "institution": "Cloud Native Computing Foundation",
+      "certificateUrl": "https://www.credly.com/badges/cc999b3b-834d-4a4d-9148-d79c8a657c52",
+      "badgeImageUrl": "https://images.credly.com/size/680x680/images/8b8ed108-e77d-4396-ac59-2504583b9d54/cka_from_cncfsite__281_29.png",
+      "hasCertificate": true,
+      "year": 2021
+    },
+    {
+      "id": 19,
+      "course": "Microsoft Certified: Azure Solutions Architect Expert",
+      "institution": "Microsoft",
+      "certificateUrl": "https://www.credly.com/badges/ea42c7db-6360-4583-a944-20f6ce06f5f0",
+      "badgeImageUrl": "https://images.credly.com/images/987adb7e-49be-4e24-b67e-55986bd3fe66/azure-solutions-architect-expert-600x600.png",
+      "hasCertificate": true,
+      "year": 2021
+    },
+    {
+      "id": 18,
+      "course": "AZ-304 Microsoft Azure Architect Design",
+      "institution": "Microsoft",
+      "certificateUrl": "https://www.youracclaim.com/badges/5d9b9bc0-149c-452b-a3d7-5bbb8b744f38",
+      "badgeImageUrl": "https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-expert-badge.svg",
+      "hasCertificate": false,
+      "year": 2021
+    },
+    {
+      "id": 17,
+      "course": "AZ-303 Microsoft Azure Architect Technologies",
+      "institution": "Microsoft",
+      "certificateUrl": "https://www.youracclaim.com/badges/fac63213-01aa-4b54-8569-6c3a9fc09f01",
+      "badgeImageUrl": "https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-expert-badge.svg",
+      "hasCertificate": true,
+      "year": 2021
+    },
+    {
+      "id": 16,
+      "course": "Microsoft Certified: Azure Fundamentals",
+      "institution": "Microsoft",
+      "certificateUrl": "https://www.credly.com/badges/c879843e-43bb-466b-a9fe-1e977f767905/public_url",
+      "badgeImageUrl": "https://images.credly.com/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png",
+      "hasCertificate": true,
+      "year": 2021
+    },
+    {
+      "id": 15,
+      "course": "AWS Certified Database - Specialty",
+      "institution": "AWS",
+      "certificateUrl": "https://www.credly.com/badges/444c8480-951d-40e8-88ba-c506e87ed84f",
+      "badgeImageUrl": "https://images.credly.com/images/885d38e4-55c0-4c35-b4ed-694e2b26be6c/image.png",
+      "hasCertificate": true,
+      "year": 2021
+    },
+    {
+      "id": 14,
+      "course": "AWS Certified DevOps Engineer - Professional",
+      "institution": "AWS",
+      "certificateUrl": "https://www.credly.com/badges/44fcc118-1e7b-4a3f-b1d1-d86d00ca672b",
+      "badgeImageUrl": "https://images.credly.com/images/bd31ef42-d460-493e-8503-39592aaf0458/image.png",
+      "hasCertificate": true,
+      "year": 2020
+    },
+    {
+      "id": 13,
+      "course": "AWS Certified Solutions Architect - Professional",
+      "institution": "AWS",
+      "certificateUrl": "https://www.credly.com/badges/e50fd718-c06e-448e-af30-bc7931215329",
+      "badgeImageUrl": "https://images.credly.com/images/2d84e428-9078-49b6-a804-13c15383d0de/image.png",
+      "hasCertificate": true,
+      "year": 2020
+    },
+    {
+      "id": 12,
+      "course": "Nutanix Certified Professional",
+      "institution": "Nutanix",
+      "certificateUrl": "https://www.jonathantissot.com/doc/NCP-Nutanix.pdf",
+      "badgeImageUrl": "https://images.credly.com/images/4f42f594-7593-4ff0-a3c0-51eb3f0ee5be/NCP_Badge_Color.png",
+      "hasCertificate": true,
+      "year": 2019
+    },
+    {
+      "id": 11,
+      "course": "AWS Certified Solutions Architect - Associate",
+      "institution": "AWS",
+      "certificateUrl": "https://www.credly.com/badges/b6ab672c-2e94-41af-a83a-22bcb9b63c27",
+      "badgeImageUrl": "https://images.credly.com/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png",
+      "hasCertificate": true,
+      "year": 2018
+    },
+    {
+      "id": 10,
+      "course": "Leadership 3.0",
+      "institution": "Universidad Torcuato Di Tella",
+      "hasCertificate": false,
+      "year": 2016
+    },
+    {
+      "id": 9,
+      "course": "Advanced Leader Program",
+      "institution": "Ernst & Young",
+      "hasCertificate": false,
+      "year": 2015
+    },
+    {
+      "id": 8,
+      "course": "ITIL Foundations v3",
+      "institution": "IAAP",
+      "hasCertificate": false,
+      "year": 2014
+    },
+    {
+      "id": 7,
+      "course": "Project Management",
+      "institution": "Business Skills",
+      "hasCertificate": false,
+      "year": 2013
+    },
+    {
+      "id": 6,
+      "course": "PMP Certification Preparation",
+      "institution": "PMC",
+      "hasCertificate": false,
+      "year": 2013
+    },
+    {
+      "id": 5,
+      "course": "Linux SAX Operator",
+      "institution": "Linux Collegium",
+      "hasCertificate": false,
+      "year": 2013
+    },
+    {
+      "id": 4,
+      "course": "Microsoft Certified Professional",
+      "institution": "Proydesa",
+      "badgeImageUrl": "https://images.credly.com/size/340x340/images/5eb27e30-8e9f-4f4c-b34d-761637278c29/image.png",
+      "hasCertificate": false,
+      "year": 2011
+    },
+    {
+      "id": 3,
+      "course": "6420 - Fundamentals of Windows Server 2008",
+      "institution": "IBM",
+      "hasCertificate": false,
+      "year": 2010
+    },
+    {
+      "id": 2,
+      "course": "6421 - Configuring and Troubleshooting Windows Server 2008",
+      "institution": "IBM",
+      "hasCertificate": false,
+      "year": 2010
+    },
+    {
+      "id": 1,
+      "course": "6424 - Fundamentals of Windows Server 2008 Active Directory",
+      "institution": "IBM",
+      "hasCertificate": false,
+      "year": 2010
+    },
+    {
+      "id": 0,
+      "course": "6425 - Configuring and Troubleshooting Windows Server 2008 Active Directory",
+      "institution": "IBM",
+      "hasCertificate": false,
+      "year": 2010
+    }
+  ]
+}
+

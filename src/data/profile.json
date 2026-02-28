@@ -1,0 +1,46 @@
+{
+  "name": "Jonathan Tissot",
+  "title": "Senior Site Reliability Engineer",
+  "location": "Buenos Aires, Argentina",
+  "birthDate": "1987-12-03",
+  "profileSummary": [
+    "Self-motivated professional, business objectives oriented.",
+    "Superb interpersonal and teamwork skills.",
+    "Responsible, determined, energic with an innovative mindset."
+  ],
+  "headerLinks": [
+    {
+      "name": "LinkedIn",
+      "enabled": true,
+      "icon": "fa-linkedin",
+      "iconPrefix": "fa-brands",
+      "url": "https://www.linkedin.com/in/jonathantissot/",
+      "ariaLabel": "Connect on LinkedIn"
+    },
+    {
+      "name": "Blog",
+      "icon": "fa-wordpress",
+      "iconPrefix": "fa-brands",
+      "url": "https://www.jonathantissot.com/blog",
+      "ariaLabel": "Visit my blog"
+    },
+    {
+      "name": "Skype",
+      "enabled": true,
+      "icon": "fa-skype",
+      "iconPrefix": "fa-brands",
+      "url": "skype:jonathan.tissot?chat",
+      "ariaLabel": "Chat on Skype"
+    },
+    {
+
+      "name": "Resume PDF",
+      "icon": "fa-file-arrow-down",
+      "iconPrefix": "fa-solid",
+      "url": "/doc/JRT - CV - English [www.jonathantissot.com].pdf",
+      "download": true,
+      "ariaLabel": "Download CV as PDF"
+    }
+  ],
+  "email": "contacto@jonathantissot.com"
+}

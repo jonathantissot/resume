@@ -1,0 +1,32 @@
+{
+  "education": [
+    {
+      "id": 1,
+      "degree": "Business Administration",
+      "institution": "Siglo 21",
+      "status": "On hold",
+      "approvedSubjects": 25,
+      "year": 2019,
+      "statusClass": "warning"
+    },
+    {
+      "id": 2,
+      "degree": "Systems Engineering",
+      "institution": "UTN / UADE",
+      "status": "On hold",
+      "approvedSubjects": 20,
+      "year": 2022,
+      "statusClass": "warning"
+    },
+    {
+      "id": 3,
+      "degree": "Qualified accountant with specialization in computing",
+      "institution": "Instituto Vocacional Argentino",
+      "status": "Finished",
+      "approvedSubjects": 58,
+      "year": 2005,
+      "statusClass": "info"
+    }
+  ]
+}
+
