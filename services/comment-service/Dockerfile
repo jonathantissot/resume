@@ -12,7 +12,18 @@ RUN npm run build
 
 FROM node:20-alpine AS runtime
 WORKDIR /app
+
+# Non-root user
+RUN addgroup -S appgroup && adduser -S appuser -G appgroup
+
 COPY --from=deps /app/node_modules ./node_modules
 COPY --from=build /app/dist ./dist
-EXPOSE 3003
+
+RUN chown -R appuser:appgroup /app
+USER appuser
+
+ENV NODE_ENV=production
+ENV PORT=3003
+
+EXPOSE ${PORT}
 CMD ["node", "dist/main"]

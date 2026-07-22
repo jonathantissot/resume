@@ -23,7 +23,7 @@ RUN chown -R appuser:appgroup /app
 USER appuser
 
 ENV NODE_ENV=production
-ENV PORT=3001
+ENV PORT=3006
 
 EXPOSE ${PORT}
 CMD ["node", "dist/main"]

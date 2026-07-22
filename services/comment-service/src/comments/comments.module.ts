@@ -4,7 +4,7 @@ import { PassportModule } from '@nestjs/passport';
 import { CommentsController } from './comments.controller';
 import { CommentsService } from './comments.service';
 import { JwtStrategy } from './strategies/jwt.strategy';
-import { Comment } from './comments/entities/comment.entity';
+import { Comment } from './entities/comment.entity';
 
 @Module({
   imports: [TypeOrmModule.forFeature([Comment]), PassportModule],

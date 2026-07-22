@@ -1,0 +1,123 @@
+# Local development stack — all 5 services + Postgres.
+# Copy .env.example to .env and fill in real values before running.
+#
+# Usage:
+#   docker compose up --build        # start everything
+#   docker compose up postgres       # start only the DB
+#   docker compose logs -f auth-service
+
+services:
+
+  # ─── Database ─────────────────────────────────────────────────────────────
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./init-db.sh:/docker-entrypoint-initdb.d/init-db.sh:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-postgres}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  # ─── auth-service (port 3001) ─────────────────────────────────────────────
+  auth-service:
+    build:
+      context: ./auth-service
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      NODE_ENV: ${NODE_ENV:-development}
+      PORT: ${AUTH_PORT:-3001}
+      DATABASE_URL: ${AUTH_DATABASE_URL:-postgresql://postgres:postgres@postgres:5432/auth_db}
+      JWT_SECRET: ${JWT_SECRET:-changeme}
+    ports:
+      - "${AUTH_PORT:-3001}:${AUTH_PORT:-3001}"
+
+  # ─── post-service (port 3002) ─────────────────────────────────────────────
+  post-service:
+    build:
+      context: ./post-service
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      NODE_ENV: ${NODE_ENV:-development}
+      PORT: ${POST_PORT:-3002}
+      DATABASE_URL: ${POST_DATABASE_URL:-postgresql://postgres:postgres@postgres:5432/post_db}
+      JWT_SECRET: ${JWT_SECRET:-changeme}
+    ports:
+      - "${POST_PORT:-3002}:${POST_PORT:-3002}"
+
+  # ─── comment-service (port 3003) ──────────────────────────────────────────
+  comment-service:
+    build:
+      context: ./comment-service
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      NODE_ENV: ${NODE_ENV:-development}
+      PORT: ${COMMENT_PORT:-3003}
+      DATABASE_URL: ${COMMENT_DATABASE_URL:-postgresql://postgres:postgres@postgres:5432/comment_db}
+      JWT_SECRET: ${JWT_SECRET:-changeme}
+      AWS_REGION: ${AWS_REGION:-us-east-1}
+      EVENTBRIDGE_BUS_NAME: ${EVENTBRIDGE_BUS_NAME:-resume-blog-bus}
+    ports:
+      - "${COMMENT_PORT:-3003}:${COMMENT_PORT:-3003}"
+
+  # ─── like-service (port 3004) ─────────────────────────────────────────────
+  like-service:
+    build:
+      context: ./like-service
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      NODE_ENV: ${NODE_ENV:-development}
+      PORT: ${LIKE_PORT:-3004}
+      DATABASE_URL: ${LIKE_DATABASE_URL:-postgresql://postgres:postgres@postgres:5432/like_db}
+      JWT_SECRET: ${JWT_SECRET:-changeme}
+      AWS_REGION: ${AWS_REGION:-us-east-1}
+      SNS_TOPIC_ARN: ${SNS_TOPIC_ARN:-}
+    ports:
+      - "${LIKE_PORT:-3004}:${LIKE_PORT:-3004}"
+
+  # ─── notification-service (port 3005) ─────────────────────────────────────
+  # No DB dependency — polls SQS and sends via SES.
+  # AWS credentials must be passed in (IAM role in prod; env vars in local dev).
+  notification-service:
+    build:
+      context: ./notification-service
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    environment:
+      NODE_ENV: ${NODE_ENV:-development}
+      PORT: ${NOTIFICATION_PORT:-3005}
+      AWS_REGION: ${AWS_REGION:-us-east-1}
+      SQS_QUEUE_URL: ${SQS_QUEUE_URL:-}
+      SES_FROM_EMAIL: ${SES_FROM_EMAIL:-noreply@example.com}
+      # Optional: pass local AWS creds for dev (prefer IAM role in prod)
+      AWS_ACCESS_KEY_ID: ${AWS_ACCESS_KEY_ID:-}
+      AWS_SECRET_ACCESS_KEY: ${AWS_SECRET_ACCESS_KEY:-}
+      AWS_SESSION_TOKEN: ${AWS_SESSION_TOKEN:-}
+    ports:
+      - "${NOTIFICATION_PORT:-3005}:${NOTIFICATION_PORT:-3005}"
+
+volumes:
+  postgres_data:

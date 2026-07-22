@@ -48,7 +48,7 @@ export class CommentsService {
           Source: 'blog.platform',
           DetailType: detailType,
           Detail: JSON.stringify(detail),
-          EventBusName: process.env.EVENT_BUS_NAME ?? 'default',
+          EventBusName: process.env.EVENTBRIDGE_BUS_NAME ?? 'default',
         }],
       }));
     } catch (err) {
