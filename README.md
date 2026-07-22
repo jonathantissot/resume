@@ -163,3 +163,40 @@ npm run build
 aws s3 sync dist/ s3://kopius-jt --delete
 aws cloudfront create-invalidation --distribution-id E1631T979B1SEX --paths "/*"
 ```
+## Infrastructure
+
+The `infra/` and `terraform-modules/` directories contain the cloud infrastructure for this project, managed with Terraform and Terragrunt.
+
+### Structure
+
+```
+infra/                        # Terragrunt stacks (environment-specific configs)
+├── terragrunt.hcl            # Root config - provider + remote state defaults
+├── _envcommon/               # Shared variable files across environments
+├── aws-shared/               # Shared AWS resources (IAM, ECR, Route53)
+├── database/                 # RDS / DocumentDB
+├── eks-cluster/              # EKS control plane + node groups
+├── api-services/             # API service deployments
+├── data-services/            # Data pipeline services
+└── monitoring/               # Observability stack (Prometheus, Grafana)
+
+terraform-modules/            # Reusable Terraform modules
+├── networking/               # VPC, subnets, security groups
+├── database/                 # RDS / DocumentDB module
+├── eks/                      # EKS cluster module
+├── api-gateway/              # API Gateway + Lambda integration
+├── s3-lambda/                # S3 + Lambda event-driven module
+└── monitoring/               # CloudWatch / Prometheus module
+```
+
+### Usage
+
+```bash
+# Init and apply a specific stack
+cd infra/eks-cluster
+terragrunt init
+terragrunt plan
+terragrunt apply
+```
+
+See `infra/README.md` for full details.

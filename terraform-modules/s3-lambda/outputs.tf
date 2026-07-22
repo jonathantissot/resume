@@ -1,0 +1,10 @@
+output "posts_bucket_id"              { value = aws_s3_bucket.posts.id }
+output "posts_bucket_arn"             { value = aws_s3_bucket.posts.arn }
+output "logs_bucket_id"               { value = aws_s3_bucket.logs.id }
+output "temp_bucket_id"               { value = aws_s3_bucket.temp.id }
+output "lambda_image_processor_name"  { value = aws_lambda_function.image_processor.function_name }
+output "lambda_image_processor_arn"   { value = aws_lambda_function.image_processor.arn }
+output "sqs_job_queue_url"            { value = aws_sqs_queue.job_queue.url }
+output "sqs_job_queue_arn"            { value = aws_sqs_queue.job_queue.arn }
+output "sqs_dlq_arn"                  { value = aws_sqs_queue.job_queue_dlq.arn }
+output "sns_notifications_arn"        { value = aws_sns_topic.notifications.arn }
