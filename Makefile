@@ -3,12 +3,10 @@
 all: build deploy invalidate
 
 build:
-	npm run build
+	$(MAKE) -C apps/personal-page build
 
 deploy:
-	aws s3 sync dist/ s3://kopius-jt --delete
+	$(MAKE) -C apps/personal-page deploy
 
 invalidate:
-	aws cloudfront create-invalidation --distribution-id E1631T979B1SEX --paths "/*" --query "Invalidation.Status" --output text
-
-
+	$(MAKE) -C apps/personal-page invalidate
