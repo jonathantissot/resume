@@ -1,0 +1,58 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: like-service
+  labels:
+    app: like-service
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: like-service
+  template:
+    metadata:
+      labels:
+        app: like-service
+    spec:
+      containers:
+        - name: like-service
+          image: blog-like:latest
+          ports:
+            - containerPort: 3004
+          envFrom:
+            - secretRef:
+                name: blog-secrets
+          env:
+            - name: PORT
+              value: "3004"
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: 3004
+            initialDelaySeconds: 15
+            periodSeconds: 20
+            failureThreshold: 3
+          resources:
+            requests:
+              memory: "128Mi"
+              cpu: "100m"
+            limits:
+              memory: "256Mi"
+              cpu: "500m"
+          securityContext:
+            runAsNonRoot: true
+            allowPrivilegeEscalation: false
+            readOnlyRootFilesystem: false
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: like-service
+spec:
+  selector:
+    app: like-service
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 3004
+  type: ClusterIP
